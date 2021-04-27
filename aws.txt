@@ -1,5 +1,22 @@
 
 
-NAT Gateway:
+NAT Gateway:(Network address translation)
 -----------
-NAT Gateway is a highly available AWS managed service that makes it easy to connect to the Internet from instances within a private subnet in an Amazon Virtual Private Cloud (Amazon VPC). Previously, you needed to launch a NAT instance to enable NAT for instances in a private subnet. 
+NAT Gateway is a highly available AWS managed service that makes it easy to connect to the Internet from instances within a private subnet in an Amazon Virtual Private Cloud (Amazon VPC). Previously, you needed to launch a NAT instance to enable NAT for instances in a private subnet.
+
+AWS NACL:
+--------
+NACL stands for Network Access Control Lists. It is a security layer for your VPC that controls the traffic in and out of one or more subnets. It is an optional layer for your VPC. You can set up a Network ACL similar to the security group that adds an additional layer of security to your VPC. 
+
+diffrence between NACL and Security groups:
+-------------------------------------------
+
+NACL:
+----
+>>It is subnet level
+>>State less firewall
+
+Securoty Group:
+---------------
+>>It is instens leve
+>>state full firewall
